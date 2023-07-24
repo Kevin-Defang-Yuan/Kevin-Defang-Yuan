@@ -99,7 +99,7 @@ li {
 }
 
 .section-container {
-  width: 400px;
+  width: 350px;
   position: relative;
   margin-bottom: 10vh; 
 }
@@ -371,6 +371,7 @@ b {
     width: 250px;
     height: 200px;
   }
+
 }
 
 @media (min-width: 900px) {
