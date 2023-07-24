@@ -20,6 +20,10 @@ dl,
 dd {
   margin: 0;
 }
+a {
+  color: inherit;
+  text-decoration: none;
+}
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role='list'],
@@ -203,10 +207,6 @@ b {
   width: 35px;
 }
 
-#resume {
-  width: 100px;
-  height: 35px;
-}
 
 #download {
   width: 20px;
@@ -214,10 +214,12 @@ b {
 }
 
 #resume {
+  width: 100px;
+  height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: #53D2AC;
   border-radius: 10px;
 }
 
